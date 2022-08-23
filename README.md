@@ -1,4 +1,4 @@
-### [Course Management System](https://626ba005750337516f70bbad--luxury-dieffenbachia-ca0d95.netlify.app/) 
+### [Course Management System(click here to try)](https://626ba005750337516f70bbad--luxury-dieffenbachia-ca0d95.netlify.app/) 
 [![flow](img/CMS.gif)](img/CMS.gif)
 ##### Backend
 - API to register and login user.
@@ -23,19 +23,19 @@ Below noted things you need to install to run this project in your system
 ### To Setup
 Clone or download this repository
 
-1. `cd final-project-jiaweioi/backend`
+1. `cd Course-Management-System/backend`
 2. `npm install`
-3. `cd final-project-jiaweioi/frontend`
+3. `cd Course-Management-System/frontend`
 4. `npm install`
 5. `modify the config.js in src to the backend server url`
 
 ### To Run
 To run node server
-1. `cd final-project-jiaweioi/backend`
+1. `cd Course-Management-System/backend`
 2. `nodemon server.js`
 
 To run react frontend
-1. `cd final-project-jiaweioi/frontend`
+1. `cd Course-Management-System/frontend`
 2. `npm start`
 
 
@@ -125,9 +125,6 @@ Course:
 ![list](img/course.png)
 
 
-## Site map
-
-![Sitemap](documentation/SiteMap.png)
 
 ## User Stories or Use Cases
 
@@ -139,23 +136,9 @@ Course:
 5. as a user, I can add courses to my dashboard
 6. as a user, I can deleted courses from my dashboard
 
-## Research Topics
-
-* (5 points) Integrate user authentication
-    * I'm going to be using passport for user authentication
-    * And account has been made for testing; I'll email you the password
-    * see <code>cs.nyu.edu/~jversoza/ait-final/register</code> for register page
-    * see <code>cs.nyu.edu/~jversoza/ait-final/login</code> for login page
-* (5 points) react.js
-    * used react.js as the frontend framework; it's a challenging library to learn, so I've assigned it 5 points
-* (5 points) get course data from NYU api
-    * Use the course system api
-    * To get course infromation from the api 
 
 ## [Link to Initial Main Project File](/backend/server.js) 
 
 ## Annotations / References Used
 
-1. [passport.js authentication docs](http://passportjs.org/docs) 
-2. [tutorial on react.js](https://reactjs.org/) 
-3. [course system API](https://anypoint.mulesoft.com/exchange/portals/nyu-0/aa8378b5-ce36-4c80-94a1-2e6042908e1a.central-it/course-sys-api/) 
+https://github.com/FSojitra - MERN-Stack
