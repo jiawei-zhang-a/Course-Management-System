@@ -101,7 +101,6 @@ Course:
 ```
 
 
-## [Link to Commented First Draft Schema](backend/model) 
 
 
 ## Wireframes
@@ -137,7 +136,6 @@ Course:
 6. as a user, I can deleted courses from my dashboard
 
 
-## [Link to Initial Main Project File](/backend/server.js) 
 
 ## Annotations / References Used
 
