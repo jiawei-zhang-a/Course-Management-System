@@ -45,8 +45,7 @@ require("./auth");
 const { success, error } = require("consola");
 const { connect } = require("mongoose");
 const PORT = 2000;
-const DB =
-  "mongodb+srv://admin:1234@cluster0.th8fran.mongodb.net/?retryWrites=true&w=majority";
+const DB = process.env.DB_URI;
 const runApp = async () => {
   try {
     await connect(DB, {
