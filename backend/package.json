@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [
     "movie"
@@ -14,6 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.0",
+    "consola": "^2.15.3",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-session": "^1.17.2",
@@ -28,6 +30,7 @@
     "require": "^2.4.20"
   },
   "devDependencies": {
-    "eslint": "^8.14.0"
+    "eslint": "^8.14.0",
+    "nodemon": "^2.0.20"
   }
 }
