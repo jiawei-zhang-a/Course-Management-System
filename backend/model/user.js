@@ -1,14 +1,14 @@
-var mongoose = require('mongoose');
+var mongoose = require("mongoose");
 
-userSchema = new mongoose.Schema({
-	username: {type: String, required: true},
-	password: {type: String},
-	courses:  [{ type: mongoose.Schema.Types.ObjectId, ref: 'course' }],
-  });
+var userSchema = new mongoose.Schema({
+  username: { type: String, required: true },
+  // name: { type: String, required: false },
+  // email: { type: String, required: false },
+  password: { type: String, required: true },
+  courses: [{ type: mongoose.Schema.Types.ObjectId, ref: "course" }],
+});
 
-var passportLocalMongoose = require('passport-local-mongoose');
+var passportLocalMongoose = require("passport-local-mongoose");
 userSchema.plugin(passportLocalMongoose);
-user = mongoose.model('user', userSchema);
+var user = mongoose.model("user", userSchema);
 module.exports = user;
-
-
